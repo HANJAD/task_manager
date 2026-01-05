@@ -8,10 +8,16 @@
 }
 
 body {
-  display: flex;
-  justify-content: center;
-  align-items: center;
   min-height: 100vh;
   background: linear-gradient(135deg, #A6CBFA, #DCEBFF);
   font-family: 'Outfit', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.no-shadow:focus {
+    box-shadow: none !important;
+}
+
+.completed {
+    text-decoration: line-through;
+    color: #6c757d;
 }

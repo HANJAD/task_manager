@@ -18,6 +18,7 @@ function TaskForm({ addTask }) {
           placeholder="Enter a new task"
           value={title}
           onChange={(e) => setTitle(e.target.value)}
+          className='no-shadow'
         />
         <Button type="submit" variant="primary">
           Add
