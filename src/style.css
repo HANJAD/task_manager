@@ -4,13 +4,12 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: Outfit, sans-serif;
+    font-family: 'Outfit', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 body {
   min-height: 100vh;
   background: linear-gradient(135deg, #A6CBFA, #DCEBFF);
-  font-family: 'Outfit', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .no-shadow:focus {
